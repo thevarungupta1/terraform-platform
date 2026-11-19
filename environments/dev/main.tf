@@ -5,5 +5,6 @@ module "artifacts" {
   tags = {
     environment = "dev"
     managed_by  = "terraform"
+    cost_center = "CC-1001"
   }
 }
